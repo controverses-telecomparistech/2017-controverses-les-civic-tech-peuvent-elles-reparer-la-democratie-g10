@@ -1,4 +1,6 @@
-# Cours
+# Controverse
 
 
-Support du cours de controverse de Telecom Paris Tech : http://ethique-tic.fr/ . 
+https://controverses.telecom-paristech.fr
+
+Each Role have a specific folder, please deliver your assignement in the folder of your role. 
