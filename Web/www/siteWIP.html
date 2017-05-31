@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Controverse : Les Civic Tech peuvent-elles réparer la démocratie ?</title>
 
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jInvertScroll.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/scrollStyles.css">
 
 
@@ -24,27 +25,27 @@
 
   <header>
     
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse " style="">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Civic Tech</a>
+          <a class="navbar-brand" style="font-size: 30px; color: white;" href="#">Civic Tech</a>
         </div>
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Controverse
+            <a class="dropdown-toggle" data-toggle="dropdown" style="color: white;" href="#">
+            Controverse
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Arbre des débats</a></li>
-              <li><a href="#">Carte des acteurs</a></li>
+              <li><a href="#Carte">Carte des acteurs</a></li>
               <li><a href="#">Timeline</a></li>
             </ul>
           </li>
-          <li><a href="entretiens.html">Entretiens</a></li>
-          <li><a href="#">Documentation</a></li>
+          <li><a href="entretiens.html" style="color: white;">Entretiens</a></li>
+          <li><a href="#" style="color: white;">Documentation</a></li>
           <li>
                         <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Nous contacter</button>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="z-index: 10">Nous contacter</button>
 
             <!-- Modal -->
             <div id="myModal" class="modal fade scroll" role="dialog">
@@ -59,7 +60,7 @@
                   <div class="modal-body">
                     <p class="text-center">Nous sommes 8 étudiants de Télécom ParisTech et dans le cadre du cours <br>
                         Enjeux des TIC nous travaillons sur la controverse posée par l'impact <br>
-                        grandissant des Civic Tech dans la démocratie française.</p>
+                        grandissant des Civic Tech sur la démocratie française.</p>
 
                         <p>Pour nous contacter, vous pouvez nous adresser un mail via ce format : prenom.nom@telecom-paristech.fr <br> Voici la liste des étudiants qui ont travaillé sur ce projet :</p>
 
@@ -90,21 +91,61 @@
   <body >
 
   <!-- Container -->
-  <div class="scroll">
+  <div class="container">
 
-  <div class="scroll">
-    
-    <h1>Les Civic Tech peuvent-elles permettre une plus grande <br> implication des citoyens dans la démocratie ?</h1>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aperiam similique numquam modi id sint vero harum, rem deserunt placeat eum, est sit magni natus ducimus accusantium quo, eligendi ratione.</p>
-
-  </div>
-  
-    <div class="scroll ">
-      <iframe class="scroll" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1bSb8bDVAiVRSfTCNAC6klZ-nyjEeyFpbci3s_M41fjk&font=Default&lang=fr&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+    <div class="horizon scroll">
+      <img src="img/longhorizontal.jpg" alt="">
     </div>
-    
-  </div>
+
+  
+    <div class="middle scroll">
+    </div>
+ 
+    <div class="front scroll">
+    <div class="row">
+      <div class="col-lg-5 scroll" style="position: fixed;">
+        <h1 class="definition ">Que sont les Civic Tech ?</h1>
+        <p style="font-size: 20px; font-weight: bold;">Les Civic Tech sont l’ensemble des moyens se basant sur l’utilisation des données gouvernementales mises en ligne et sur la simplification possible de la communication intergroupes (notamment entre le gouvernement et les citoyens). Ceux-ci dépendent donc principalement des nouvelles technologies, raison pour laquelle cette controverse est relativement récente. 
+        De fait, de nombreuses questions sur ce sujet restent sans réponse claire. Et pourtant, il est peut-être ici question du futur de la démocratie. Les Civic Tech peuvent-elles rendre possible la mise en place d’un système démocratique basé sur le numérique ?  Auront-elles un réel impact, ou se cantonnera-t-on à une simple modernisation des instruments du système ?</p>
+      </div>
+
+      <div class="col-lg-5 scroll" style="left: 580px; position: fixed;">  <h1 class="argument">Argumentaire général</h1>
+        <p style="left: 50px">De ces questions, et de réponses proposées par les différents acteurs, nous pouvons séparer ceux-ci en trois catégories. En premier sont ceux permettant l’existence même des Civic Tech (les administrateurs des bases de données gouvernementales par exemple), ou ceux critiquant ces technologies. En deuxième sont ceux souhaitant une simple simplification des administrations et du gouvernement déjà en place. Enfin viennent ceux désirant modifier le gouvernement en place au profit d’une démocratie qu’ils jugent plus participative.
+
+        On trouvait donc en premier des acteurs « neutres ». On trouve en leur sein les administrateurs des bases de données gouvernementales par exemple. Or ce sont sur ces données que se basent de nombreuses innovations. On trouve aussi, on l’a dit, ceux se prononçant sur lesdites innovations et leur impact possible.
+        S'il existe des sites comme data.gouv.fr, se basant sur l’initiative du gouvernement par le biais du projet Etalab, on trouve aussi d’autres bases de données ou ressources ayant pour origine des particuliers. On peut ici penser par exemple à La fabrique de la loi, site qui compile toutes les modifications des textes de lois effectuées. D’origine différentes, ces projets ont néanmoins pour but commun de rendre la sphère politique plus transparente, compréhensible et surveillable. </p>
+
+      <div class="col-lg-5 scroll" style="left: 1160px; top: 110px; position: fixed;"> 
+        <p>Toutefois, la deuxième partie de ces acteurs cherche avant tout à assurer la visibilité de ces innovations. Cette entreprise peut avoir deux buts radicalement opposés : promouvoir ou montrer la nécessité d’encadrer les Civic Tech. 
+        Ces acteurs ne se prononcent pas sur les questions qui nous intéressent, mais ceux sont responsables du fondement même de celles-ci...</p>
+      </div>
+
+      <div class="col-lg-5 scroll" style="left:1740px; position: fixed;">
+        <h2>Arbre des débats</h2>
+        <img src="../../Design/Arbre des débats/Arbre2.svg" alt="">
+      </div>
+
+      <div class="col-lg-5 scroll actors" id="Carte" style="left: 2160px;position:fixed;">
+          <h2>Cartograpghie des acteurs</h2>
+          <img src="../../Design/Carte des acteurs/Acteurs.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+        
+
+        
+
+
+        <!-- <div class="timeline" style="">
+          <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1bSb8bDVAiVRSfTCNAC6klZ-nyjEeyFpbci3s_M41fjk&font=Default&lang=fr&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+        </div> -->
+      <!-- <div class="debate scroll">
+        <h2>Arbre des débats</h2>
+        <img src="Arbre_des_debats/tree.svg" alt="">
+      </div>
+    </div>
+  </div> -->
   <!-- Fin container -->  
 
 
@@ -120,11 +161,8 @@
         (function($) {
           $.jInvertScroll(['.scroll']);
           }(jQuery));
-
-    </script>
+        </script>
   </body>
-
-
 
   <footer>
     
