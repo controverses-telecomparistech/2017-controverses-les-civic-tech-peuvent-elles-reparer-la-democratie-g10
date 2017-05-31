@@ -19,15 +19,16 @@
 }
 
 .definition{
-	
-}
+    top:0px;
+    width:500px;
+	}
+
 .timeline{
-	width: 1000px;
-	left : 2000px;
+    top:0px;
+    width:800px;
 }
 .actors{
 	width:1000px;
-	left: 1000px;
 }
 
 .debate{
