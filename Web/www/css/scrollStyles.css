@@ -1,6 +1,6 @@
-{
+body{
 	overflow-x: hidden;
-	background: url('img/longhorizontal.jpg') repeat top left;
+	background: url('img/enveloppes.jpg') repeat top left;
 }
 
 .horizon{
@@ -9,6 +9,10 @@
 
 .middle{
 	top: 50px;
+}
+
+.front{
+    width: 10000px;
 }
 
 .scroll{
@@ -21,22 +25,43 @@
 .definition{
     top:0px;
     width:500px;
-	}
+    left: 0;
+}
+
+.col{
+}
 
 .timeline{
     top:0px;
-    width:800px;
+    width:1000px;
+    left: 100px;
 }
-.actors{
-	width:1000px;
+
+.argument{
+    top: 0px;
+    left:200px;
+    width:550px;
+}
+
+.argument2{
+    top: 20px;
+    left: 200px;
+    width: 550px; 
 }
 
 .debate{
 
-	width:1000px;
-	left:2000px;
-	
+    width:600px;
+    left:250px;
+    height: 50%;
 }
+
+.actors{
+	width:930px;
+    left :340px;
+}
+
+
 
 h2{
 	text-align: center;
@@ -58,7 +83,7 @@ h1{
 
 p{
 	font-size: 18px;
-	text-align: center;
+	text-align:;
 	text-indent: 30px;
 }
 
