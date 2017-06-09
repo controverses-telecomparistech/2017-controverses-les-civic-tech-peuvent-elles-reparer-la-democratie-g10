@@ -1,10 +1,11 @@
 body{
 	overflow-x: hidden;
-	background: url('img/enveloppes.jpg') repeat top left;
+	background: url('img/middle.png') repeat top left;
 }
 
 .horizon{
-	width:10000px;
+	width: 3500px;
+    filter: brightness(50%);
 }
 
 .middle{
@@ -22,54 +23,182 @@ body{
 	left: 0;
 }
 
-.definition{
-    top:0px;
-    width:500px;
-    left: 0;
+.home{
+    left :40px;
+    top: 40px;
+    width: 1500px;
 }
 
-.col{
+.definition{
+    top:50px;
+    width:1300px;
+    left: 80px;
 }
 
 .timeline{
-    top:0px;
-    width:1000px;
-    left: 100px;
+    top:80px;
+    width:1200px;
+    left: 250px;
 }
 
 .argument{
     top: 0px;
-    left:200px;
+    left:800px;
     width:550px;
 }
 
 .argument2{
-    top: 20px;
-    left: 200px;
+    top: 70px;
+    left: 800px;
     width: 550px; 
+}
+
+.linkPdf{
+    position: relative;
+    top: 70px;
+    left:800px;
+    width: 500px;
+}
+
+.scientific{
+    top:100px;
+    position: absolute;
+}
+
+.media{
+    top:200px;
+    position: absolute;
+}
+
+.society{
+    top: 300px;
+    position: absolute;
+}
+
+.law{
+    top: 400px;
+    position: absolute;
+}
+.legend{
+    top: 115px;
+    width:420px;
+    left: 900px;
+    background-color: rgba(200,200,200,0.5);
+}
+
+.actors{
+    position: relative;
+    width:1150px;
+    left :900px;
+}
+
+.actors1{
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+    background-color: rgba(200,200,200,0.5);
+
+
+}
+
+.actors1:active{ z-index: -1 }
+
+.actors2{
+    position: absolute;
+    top: 80px;
+    z-index: 0;
+    background-color: rgba(200,200,200,0.5);
+
 }
 
 .debate{
 
-    width:600px;
-    left:250px;
+    position: relative;
+    width:730px;
+    left:1050px;
     height: 50%;
 }
 
-.actors{
-	width:930px;
-    left :340px;
+.debateCenter{
+    position: absolute;
+    width: 45%;
+    left: 215px;
+    top: 270px;
+
 }
 
+.debateMiddle{
+    position: absolute;
+    width: 62%;
+    left:153px;
+    top: 210px;
+    animation-name: rotateMiddle;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+
+}
+ 
+@keyframes rotateMiddle{
+     0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-180deg);
+    }
+}
+
+
+
+.debateExtern{
+    position: absolute;
+    animation-name: rotateExtern;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;   
+}
+
+
+@keyframes rotateExtern {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+.tree{
+    position: absolute;
+    left:800px;
+    width:110%;
+    top:40px;
+}
+.interviews{
+    width: 1300px;
+    left: 2000px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: solid gray;
+}
 
 
 h2{
 	text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 img {
     width: 100%;
     height: auto;
+    background-color: none;
 }
 
 @font-face{
@@ -77,25 +206,39 @@ img {
 	src: url(https://fonts.google.com/specimen/Source+Sans+Pro);
 }
 
-h1{
-	text-align: center;
-}
+
 
 p{
-	font-size: 18px;
-	text-align:;
-	text-indent: 30px;
+	font-size: 25px;
+    color: white;
+    top: 150px;
+    text-shadow: 1px 1px black;
 }
 
 nav{
 	font-family: "Source Sans Pro", Source, serif;
 	font-size: 20px;
 	font-weight: bold;
-}/* The Modal (background) */
+}
+
+button{
+    background-color: rgba(200,200,200,0.4);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index:3; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
