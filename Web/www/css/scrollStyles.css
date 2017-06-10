@@ -79,6 +79,11 @@ body{
     top: 400px;
     position: absolute;
 }
+
+.biblio{
+    top: 500px;
+    position: absolute;
+}
 .legend{
     top: 115px;
     width:420px;
