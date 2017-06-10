@@ -1,0 +1,4 @@
+Au cas où l'enregistrement du fichier TimelineJS Embed.html ne fonctionne pas,
+notre timeline est consultable ici (copier/coller le lien dans votre navigateur): 
+
+https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1bSb8bDVAiVRSfTCNAC6klZ-nyjEeyFpbci3s_M41fjk&font=Default&lang=fr&initial_zoom=2&height=650
